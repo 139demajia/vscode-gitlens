@@ -216,6 +216,12 @@ gk-menu-item {
 			outline-offset: -1px;
 		}
 
+		&:disabled {
+			opacity: 0.4;
+			cursor: not-allowed;
+			pointer-events: none;
+		}
+
 		&--text {
 			overflow: hidden;
 			white-space: nowrap;
